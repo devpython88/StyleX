@@ -1,0 +1,85 @@
+/* BUTTONS */
+.btn-android {
+	border-radius: 3px;
+	border: none;
+	box-shadow: 0px 0px 2px;
+	color: black;
+	padding: 3px;
+	background: linear-gradient(to bottom, #ffffff, #bbbbbb);
+	transition: box-shadow 0.2s ease;
+}
+
+.btn-android:active {
+	box-shadow: inset 0px 0px 5px;
+}
+
+
+/* ENTRIES */
+
+.entry-android {
+	border: none;
+	padding: 4px;
+	border-bottom: 1px solid #3d3d3d;
+}
+
+.entry-android:focus {
+	outline: none;
+	border-bottom: 1px solid rgb(0, 139, 35);
+}
+
+/* WINDOWS */
+
+.window-android {
+	border-radius: 10pt;
+	display: none;
+	position: fixed;
+	flex-direction: column;
+	width: auto;
+	height: auto;
+	background-color: #ddd;
+	box-shadow: 0px 0px 10px black;
+	margin: 10px;
+	z-index: auto;
+}
+
+.window-android .window-title {
+	padding: 9px;
+	background-color: #ddd;
+	text-align: center;	
+	font-weight: bolder;
+  display: flex;
+	flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.window-android .window-content {
+	padding: 12px;
+}
+
+.window-android .window-options {
+	background-color: #ddd;
+	padding: 6px;
+	display: flex;
+	flex-direction: row;
+}
+
+.window-android .window-options button {
+	height: 100%;
+	width: 100%;
+}
+
+.window-android .window-close {
+	border-radius: 3pt;
+	background-color: #ff00008e;
+	width: 15px;
+	height: 15px;
+}
+
+.window-android .window-close:hover {
+	background-color: #ff4444;
+}
+
+.window-android .window-close:active {
+	background-color: #ff8888;
+}

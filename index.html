@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is the tst for Stylex</title>
+    <link rel="stylesheet" href="css/stylex.css" />
+    <link rel="stylesheet" href="css/stylex_android.css" />
+  </head>
+  <body>
+    <button class="btn-android" data-opens="and">Hello</button>
+    <input type="text" class="entry-android">
+
+    <div class="window-android and" style="display: inline-block;">
+      <div class="window-title">
+        <div class="window-close" data-root="and"></div>
+        <span>Android dialog</span>
+      </div>
+
+      <div class="window-content"> 
+        HELLO HELLO HELLO !
+      </div>
+
+      <div class="window-options">
+        <button class="btn-android">Hi</button>
+        <button class="btn-android">Again.</button>
+      </div>
+    </div>
+
+    <div class="checkbutton-android">
+      <div class="cball"></div>
+    </div>
+
+    <script src="js/stylex.js"></script>
+  </body>
+</html>
